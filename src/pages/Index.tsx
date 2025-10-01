@@ -99,8 +99,8 @@ const Index = () => {
           <div className="flex items-center gap-3">
             <Icon name="Mountain" size={32} className="text-primary" />
             <div>
-              <h1 className="text-2xl font-bold text-foreground">Символика Северной Осетии-Алании</h1>
-              <p className="text-sm text-muted-foreground">Герб, флаг и история республики</p>
+              <h1 className="text-2xl font-bold text-foreground">Проектная работа 8А класса</h1>
+              <p className="text-sm text-muted-foreground">Символика Северной Осетии-Алании</p>
             </div>
           </div>
         </div>
@@ -454,7 +454,8 @@ const Index = () => {
       <footer className="bg-white border-t mt-16">
         <div className="container mx-auto px-4 py-8">
           <div className="text-center text-sm text-muted-foreground">
-            <p>Образовательный проект о государственной символике Республики Северная Осетия-Алания</p>
+            <p>Проектная работа 8А класса</p>
+            <p className="mt-1">Тема: Государственная символика Республики Северная Осетия-Алания</p>
             <p className="mt-2">© 2024 • Создано на poehali.dev</p>
           </div>
         </div>
