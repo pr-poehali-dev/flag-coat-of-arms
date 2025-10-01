@@ -155,6 +155,17 @@ const Index = () => {
                 Над барсом располагаются семь золотых горных вершин, символизирующих семь исторических 
                 районов Осетии. В верхней части щита изображено золотое солнце с лучами.
               </p>
+              <p className="text-foreground leading-relaxed">
+                Барс — древний геральдический символ, тесно связанный с историей алан. Этот благородный 
+                хищник издревле почитался народами Кавказа как воплощение силы, отваги и независимости. 
+                Серебряный цвет барса символизирует чистоту и благородство помыслов осетинского народа.
+              </p>
+              <div className="bg-muted/50 p-4 rounded-lg">
+                <p className="text-sm text-foreground">
+                  <strong>Интересный факт:</strong> Семь горных вершин на гербе представляют семь исторических 
+                  ущелий Осетии: Алагирское, Куртатинское, Даргавское, Кобанское, Тагаурское, Дигорское и Туалгомское.
+                </p>
+              </div>
               <Separator className="my-4" />
               <div className="space-y-3">
                 <h4 className="font-semibold flex items-center gap-2">
@@ -199,18 +210,31 @@ const Index = () => {
               <p className="text-sm text-foreground leading-relaxed">
                 Флаг состоит из трёх равновеликих горизонтальных полос: белой, красной и жёлтой.
               </p>
+              <p className="text-sm text-foreground leading-relaxed">
+                Государственный флаг был утверждён вместе с гербом в 1994 году. Пропорции флага — 2:3, 
+                что соответствует международным геральдическим стандартам.
+              </p>
               <div className="space-y-2 text-sm">
-                <div className="flex items-center gap-2">
-                  <div className="w-4 h-4 bg-white border border-gray-300 rounded"></div>
-                  <span className="text-muted-foreground">Чистота помыслов</span>
+                <div className="flex items-start gap-2">
+                  <div className="w-4 h-4 bg-white border border-gray-300 rounded flex-shrink-0 mt-1"></div>
+                  <div>
+                    <p className="font-medium text-foreground">Белый цвет</p>
+                    <p className="text-muted-foreground">Символизирует моральную чистоту, духовность и стремление к совершенству</p>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-4 h-4 bg-red-600 rounded"></div>
-                  <span className="text-muted-foreground">Мужество народа</span>
+                <div className="flex items-start gap-2">
+                  <div className="w-4 h-4 bg-red-600 rounded flex-shrink-0 mt-1"></div>
+                  <div>
+                    <p className="font-medium text-foreground">Красный цвет</p>
+                    <p className="text-muted-foreground">Олицетворяет героизм и мужество осетинского народа в защите Родины</p>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2">
-                  <div className="w-4 h-4 bg-yellow-400 rounded"></div>
-                  <span className="text-muted-foreground">Изобилие земли</span>
+                <div className="flex items-start gap-2">
+                  <div className="w-4 h-4 bg-yellow-400 rounded flex-shrink-0 mt-1"></div>
+                  <div>
+                    <p className="font-medium text-foreground">Жёлтый цвет</p>
+                    <p className="text-muted-foreground">Представляет изобилие, благополучие и плодородие осетинской земли</p>
+                  </div>
                 </div>
               </div>
             </CardContent>
@@ -249,7 +273,9 @@ const Index = () => {
                 </div>
                 <h4 className="font-semibold">Культурное наследие</h4>
                 <p className="text-sm text-muted-foreground">
-                  Элементы герба отражают древние традиции алан — предков современных осетин, единственного народа, сохранившего язык скифо-сарматской группы.
+                  Элементы герба отражают древние традиции алан — предков современных осетин, единственного народа, 
+                  сохранившего язык скифо-сарматской группы. Аланы создали мощное государство на Северном Кавказе 
+                  в раннем средневековье, оставив богатое культурное наследие.
                 </p>
               </div>
 
@@ -262,7 +288,9 @@ const Index = () => {
                 </div>
                 <h4 className="font-semibold">Горная республика</h4>
                 <p className="text-sm text-muted-foreground">
-                  Северная Осетия расположена на Северном Кавказе, её территория включает высочайшие вершины Кавказского хребта, что нашло отражение в символике.
+                  Северная Осетия расположена на Северном Кавказе, её территория включает высочайшие вершины 
+                  Кавказского хребта, включая гору Казбек (5033 м). Горы занимают более половины территории 
+                  республики и являются неотъемлемой частью культурной идентичности осетинского народа.
                 </p>
               </div>
             </div>
@@ -277,6 +305,65 @@ const Index = () => {
               />
               <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg">
                 <p className="text-sm font-medium">Величественные вершины Кавказа</p>
+              </div>
+            </div>
+            
+            <Separator className="my-6" />
+            
+            <div className="space-y-4">
+              <h3 className="text-xl font-semibold flex items-center gap-2">
+                <Icon name="Scroll" className="text-primary" size={24} />
+                Дополнительные факты о символике
+              </h3>
+              
+              <div className="grid md:grid-cols-2 gap-4">
+                <div className="bg-gradient-to-br from-red-50 to-white p-4 rounded-lg border border-red-100">
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <Icon name="Award" size={18} className="text-primary" />
+                    Правовой статус
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    Герб и флаг республики защищены Конституцией Республики Северная Осетия-Алания. 
+                    Их использование регламентируется специальными законами, а надругательство над символами 
+                    влечёт административную и уголовную ответственность.
+                  </p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-yellow-50 to-white p-4 rounded-lg border border-yellow-100">
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <Icon name="Building" size={18} className="text-primary" />
+                    Использование символики
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    Государственный герб размещается на зданиях органов власти, официальных документах, 
+                    печатях и бланках. Флаг поднимается над административными зданиями и во время 
+                    государственных праздников.
+                  </p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-white to-gray-50 p-4 rounded-lg border border-gray-200">
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <Icon name="Users" size={18} className="text-primary" />
+                    Осетинская культура
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    Осетины — один из древнейших народов Кавказа, сохранивших уникальный язык, богатый 
+                    фольклор и эпос «Нарты». Традиционная культура осетин включает знаменитый танец 
+                    «Симд» и особые застольные традиции.
+                  </p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-blue-50 to-white p-4 rounded-lg border border-blue-100">
+                  <h4 className="font-semibold mb-2 flex items-center gap-2">
+                    <Icon name="MapPin" size={18} className="text-primary" />
+                    Столица республики
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    Владикавказ — столица Северной Осетии-Алании, основанная в 1784 году как русская 
+                    крепость. Город расположен на берегах реки Терек у подножия Главного Кавказского хребта 
+                    и является важнейшим культурным и экономическим центром региона.
+                  </p>
+                </div>
               </div>
             </div>
           </CardContent>
